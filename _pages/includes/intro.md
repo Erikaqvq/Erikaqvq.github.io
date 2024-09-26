@@ -3,4 +3,4 @@ I am the 1st-year Ph.D. student in the college of [Computer Science and Technolo
 I completed my undergraduate studies at the [ZJU-UIUC Institute](https://zjui.intl.zju.edu.cn/), majoring in Computer Engineering (CompE), and earned dual Bachelor's degrees in Engineering from Zhejiang University and [The Grainger College of Engineering at the University of Illinois at Urbana-Champaign (UIUC)](https://grainger.illinois.edu/). In 2022, I participated in an exchange program at UIUC.
 My research interests include neural signal decoding, large-scale models for EEG signals, machine learning for healthcare, and human-centered AI.
 Here is my CV (<a target="_blank"  href="_pages/includes/cv_ljh.pdf">English version</a>/
-<a target="_blank"  href="_pages/includes/中文简历ljh_.pdf">Chinese version</a>).
+<a target="_blank"  href="_pages/includes/中文简历ljh.pdf">Chinese version</a>).

@@ -27,4 +27,4 @@ redirect_from:
 
 {% include_relative includes/myself.md %}
 
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=imqcvozcgcnfp5hQriR-jakZNMi9bTOlz2KAxRH75JQ&cl=ffffff&w=a"></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=365&t=n&d=imqcvozcgcnfp5hQriR-jakZNMi9bTOlz2KAxRH75JQ'></script>

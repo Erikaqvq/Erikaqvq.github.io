@@ -34,3 +34,6 @@ The goal is to develop a more efficient method for dynamically updating truncate
 [Accelerating Dynamic Network Embedding with Billions of Parameter Updates to Milliseconds](https://dl.acm.org/doi/10.1145/3580305.3599250) \\
 [Haoran Deng](https://haorandeng.github.io/), [Yang Yang](http://yangy.org/), **Jiahe Li**, Haoyang Cai, Shiliang Pu, and Weihao Jiang\\
 The purpose of the DAMF algorithm is to achieve efficient and accurate dynamic network embedding by updating billion-edge graphs in under 10 milliseconds while capturing higher-order neighbor information.
+
+</div>
+</div>

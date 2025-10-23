@@ -2,7 +2,7 @@
 
 ## Deep Learning for EEG/iEEG-Based Neurological Diagnostics
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE RBME</div><img src='images/survey.pdf' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE RBME</div><img src='images/RBME.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Deep Learning-Powered Electrical Brain Signals Analysis: Advancing Neurological Diagnostics](https://arxiv.org/abs/2502.17213) \\
@@ -44,6 +44,10 @@ The goal is to develop a more efficient method for dynamically updating truncate
 <div class='paper-box-text' markdown="1">
 
 [Accelerating Dynamic Network Embedding with Billions of Parameter Updates to Milliseconds](https://dl.acm.org/doi/10.1145/3580305.3599250
+        
+        
+        
+        
         
         
         

@@ -1,6 +1,18 @@
 # 📝 Publications 
 
-## Modelling and Decoding of Brain Signals
+## Deep Learning for EEG/iEEG-Based Neurological Diagnostics
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE RBME</div><img src='images/survey.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Deep Learning-Powered Electrical Brain Signals Analysis: Advancing Neurological Diagnostics](https://arxiv.org/abs/2502.17213) \\
+**Jiahe Li**, Xin Chen, [Fanqi Shen](https://wajtsq.github.io/), [Junru Chen](https://mrnobodycali.github.io/), Yuxin Liu, Daoze Zhang, Zhizhang Yuan, Fang Zhao, Meng Li, [Yang Yang](http://yangy.org/)\\
+This review provides a comprehensive overview of recent deep learning advances in EEG and iEEG analysis for neurological disorder diagnosis, summarizing trends across 46 datasets and 7 conditions while proposing a standardized benchmark for future research.
+
+</div>
+</div>
+
+## Modeling and Decoding of Brain Signals
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/Con4m.jpg' alt="sym" width="100%"></div></div>

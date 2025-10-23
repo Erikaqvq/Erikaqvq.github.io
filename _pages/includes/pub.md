@@ -6,7 +6,7 @@
 <div class='paper-box-text' markdown="1">
 
 [Deep Learning-Powered Electrical Brain Signals Analysis: Advancing Neurological Diagnostics](https://arxiv.org/abs/2502.17213) \\
-**Jiahe Li**, Xin Chen, [Fanqi Shen](https://wajtsq.github.io/), [Junru Chen](https://mrnobodycali.github.io/), Yuxin Liu, Daoze Zhang, Zhizhang Yuan, Fang Zhao, Meng Li, [Yang Yang](http://yangy.org/)\\
+**Jiahe Li**, Xin Chen, [Fanqi Shen](https://wajtsq.github.io/), [Junru Chen](https://mrnobodycali.github.io/), Yuxin Liu, [Daoze Zhang](https://daozezhang.github.io/), Zhizhang Yuan, Fang Zhao, Meng Li, [Yang Yang](http://yangy.org/)\\
 This review provides a comprehensive overview of recent deep learning advances in EEG and iEEG analysis for neurological disorder diagnosis, summarizing trends across 46 datasets and 7 conditions while proposing a standardized benchmark for future research.
 
 </div>

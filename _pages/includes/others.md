@@ -7,6 +7,8 @@
 - *2023* Five-Star Volunteer of Zhejiang University
 - *2024* Outstanding Graduate of Zhejiang Province
 - *2024* Outstanding Graduate of Zhejiang University
+- *2025* Outstanding Graduate Student of Zhejiang University
+- *2025* Outstanding Graduate Student Leader of Zhejiang University
 
 
 

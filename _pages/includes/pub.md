@@ -7,7 +7,7 @@
 <div class='paper-box-text' markdown="1">
 
 [Assembling the Mind's Mosaic: Towards EEG Semantic Intent Decoding](https://openreview.net/forum?id=8OgJ2uhiu8) \\
-**Jiahe Li**, [Junru Chen](https://mrnobodycali.github.io/), [Fanqi Shen](https://wajtsq.github.io/), Jialan Yang, Jada Li, Zhizhang Yuan, Baowen Cheng, Meng Li, [Yang Yang](http://yangy.org/)\\
+**Jiahe Li**, [Junru Chen](https://mrnobodycali.github.io/), [Fanqi Shen](https://wajtsq.github.io/), Jialan Yang, Jada Li, [Zhizhang Yuan](https://yzz673.github.io/), Baowen Cheng, Meng Li, [Yang Yang](http://yangy.org/)\\
 **BrainMosaic** introduces Semantic Intent Decoding (SID), a novel framework that translates EEG/SEEG signals into natural language by representing meaning as flexible, compositional semantic units. By aligning neural representations with a continuous semantic space and leveraging LLMs for reconstruction, it enables interpretable, open-vocabulary BCI communication.
 
 </div>
@@ -20,7 +20,7 @@
 <div class='paper-box-text' markdown="1">
 
 [Deep Learning-Powered Electrical Brain Signals Analysis: Advancing Neurological Diagnostics](https://ieeexplore.ieee.org/document/11286230/) \\
-**Jiahe Li**, Xin Chen, [Fanqi Shen](https://wajtsq.github.io/), [Junru Chen](https://mrnobodycali.github.io/), Yuxin Liu, [Daoze Zhang](https://daozezhang.github.io/), Zhizhang Yuan, Fang Zhao, Meng Li, [Yang Yang](http://yangy.org/)\\
+**Jiahe Li**, Xin Chen, [Fanqi Shen](https://wajtsq.github.io/), [Junru Chen](https://mrnobodycali.github.io/), Yuxin Liu, [Daoze Zhang](https://daozezhang.github.io/), [Zhizhang Yuan](https://yzz673.github.io/), Fang Zhao, Meng Li, [Yang Yang](http://yangy.org/)\\
 This review provides a comprehensive overview of recent advances in deep learning for EEG and iEEG analysis in neurological disorder diagnosis, summarizing trends across 46 datasets and 7 conditions while proposing a standardized benchmark for future research.
 
 </div>

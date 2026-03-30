@@ -7,7 +7,7 @@
     if (!panoramaEl || !mapEl) return;
 
     var host = window.location.hostname;
-    var isLiveSite = /(^|\\.)erikaqvq\\.github\\.io$/.test(host);
+    var isLiveSite = /(^|\.)erikaqvq\.github\.io$/.test(host);
     if (!isLiveSite) {
       panoramaEl.innerHTML = '<div class="geo-panel__fallback">Baidu panorama is enabled on the live site at erikaqvq.github.io.</div>';
       mapEl.innerHTML = '<div class="geo-panel__fallback">The zoomable Baidu map is enabled on the live site at erikaqvq.github.io.</div>';

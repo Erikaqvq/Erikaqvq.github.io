@@ -20,12 +20,20 @@
       return;
     }
 
-    var point = new BMap.Point(120.11703, 30.26115);
+    var point = (function() {
+      try {
+        if (BMap.MercatorProjection && BMap.Pixel) {
+          var projection = new BMap.MercatorProjection();
+          return projection.pointToLngLat(new BMap.Pixel(13372807.03, 3515975.78));
+        }
+      } catch (error) {}
+      return new BMap.Point(120.11703, 30.26115);
+    })();
 
     try {
       var panorama = new BMap.Panorama("geo-panorama");
       panorama.setId("{{ site.baidu_panorama_id }}");
-      panorama.setPov({ heading: 152.1, pitch: -0.98 });
+      panorama.setPov({ heading: 136.55, pitch: -5.57 });
       panorama.setOptions({
         albumsControl: false,
         navigationControl: true
@@ -36,7 +44,7 @@
 
     try {
       var map = new BMap.Map("geo-map");
-      map.centerAndZoom(point, 19);
+      map.centerAndZoom(point, 21);
       map.enableScrollWheelZoom(true);
       map.addControl(new BMap.NavigationControl());
       map.addControl(new BMap.ScaleControl());

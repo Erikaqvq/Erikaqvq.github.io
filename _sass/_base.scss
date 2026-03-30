@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   font-family: $header-font-family;
   font-weight: bold;
+  color: $theme-pink-deep;
 }
 
 h1 {
@@ -36,10 +37,20 @@ h1 {
 
 h2 {
   font-size: $type-size-4;
+  display: inline-block;
+  padding: 0.18em 0.7em;
+  border-radius: 0.45rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, $theme-pink-soft 100%);
+  box-shadow: inset 0 -0.45em 0 mix(#fff, $theme-pink-soft, 20%);
 }
 
 h3 {
   font-size: $type-size-5;
+  display: inline-block;
+  padding: 0.14em 0.6em;
+  border-radius: 0.4rem;
+  background: mix(#fff, $theme-pink-soft, 35%);
+  box-shadow: inset 0 -0.4em 0 mix(#fff, $theme-pink-soft, 10%);
 }
 
 h4 {
@@ -104,6 +115,7 @@ blockquote {
   padding-right: 1em;
   font-style: italic;
   border-left: 0.25em solid $primary-color;
+  background: linear-gradient(90deg, mix(#fff, $theme-pink-soft, 25%) 0%, rgba(255, 255, 255, 0) 100%);
 
   cite {
     font-style: italic;
@@ -118,6 +130,10 @@ blockquote {
 /* links */
 
 a {
+  color: $link-color;
+  text-decoration-color: mix(#fff, $theme-pink, 30%);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.14em;
   
   &:focus {
     @extend %tab-focus;
@@ -126,7 +142,17 @@ a {
   &:hover,
   &:active {
     outline: 0;
+    color: $link-color-hover;
   }
+}
+
+strong,
+b {
+  color: $theme-pink-deep;
+  font-weight: 700;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 38%, mix(#fff, $theme-pink-soft, 12%) 38%);
+  border-radius: 0.2em;
+  padding: 0 0.12em;
 }
 
 /* code */
@@ -255,8 +281,8 @@ figcaption {
     transition: $global-transition;
 
     &:hover {
-      color: #000;
-      border-bottom-color: #000;
+      color: $theme-pink-deep;
+      border-bottom-color: $theme-pink-hover;
     }
   }
 }

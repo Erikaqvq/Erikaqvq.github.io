@@ -46,9 +46,15 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
+    border-bottom: 1px solid $theme-pink-border;
     padding: 2em 0 2em 0;
+    margin-bottom: 0.5em;
+    border-radius: 1.25rem;
+    transition: $global-transition;
     
+    &:hover {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, mix(#fff, $theme-pink-soft, 35%) 100%);
+    }
 
     .paper-box-image{
         justify-content: center;
@@ -57,7 +63,8 @@
         order: 2;
         img {
             max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
+            border-radius: 1rem;
+            box-shadow: 0 18px 30px $theme-pink-shadow;
             object-fit: cover;
         }
     }
@@ -104,6 +111,138 @@ h1:before, .anchor:before {
     margin-top: .5em;
     margin-left: -.5em;
     color: white;
-    background-color: #00369f;
+    background: linear-gradient(135deg, $theme-pink 0%, $theme-pink-deep 100%);
     font-size: .8em;
+    border-radius: 999px;
+    box-shadow: 0 10px 18px $theme-pink-glow;
+}
+
+.geo-card {
+    margin-top: 0.9rem;
+    margin-bottom: 0.6rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid $theme-pink-border;
+    border-radius: 0.85rem;
+    background: linear-gradient(180deg, mix(#fff, $theme-pink-soft, 28%) 0%, #fff 100%);
+}
+
+.geo-card__eyebrow {
+    margin-bottom: 0.35rem;
+    color: $theme-pink-hover;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.geo-card__coords {
+    margin-bottom: 0.55rem;
+    color: $theme-pink-deep;
+    font-family: $monospace;
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.geo-card p {
+    margin-bottom: 0.45rem;
+}
+
+.geo-card__media {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+    margin-top: 0.75rem;
+}
+
+.geo-panel {
+    border: 1px solid mix(#fff, $theme-pink, 65%);
+    border-radius: 0.7rem;
+    background: rgba(255, 255, 255, 0.72);
+    overflow: hidden;
+}
+
+.geo-panel__title {
+    padding: 0.65rem 0.8rem;
+    color: $theme-pink-deep;
+    font-size: 0.86rem;
+    font-weight: 700;
+    border-bottom: 1px solid mix(#fff, $theme-pink, 72%);
+}
+
+.geo-panel__viewport {
+    min-height: 180px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: mix(#000, $gray, 18%);
+    font-size: 0.95rem;
+    background:
+        linear-gradient(135deg, rgba(255,255,255,0.55) 25%, transparent 25%) -10px 0/20px 20px,
+        linear-gradient(225deg, rgba(255,255,255,0.55) 25%, transparent 25%) -10px 0/20px 20px,
+        linear-gradient(315deg, rgba(255,255,255,0.55) 25%, transparent 25%) 0 0/20px 20px,
+        linear-gradient(45deg, rgba(255,255,255,0.55) 25%, transparent 25%) 0 0/20px 20px,
+        mix(#fff, $theme-pink-soft, 20%);
+}
+
+.geo-panel__viewport--embed {
+    position: relative;
+    min-height: 260px;
+    height: 260px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.geo-panel__fallback {
+    width: 100%;
+    min-height: 260px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: mix(#000, $gray, 18%);
+    font-size: 0.95rem;
+}
+
+#geo-panorama,
+#geo-map {
+    width: 100%;
+    height: 260px;
+}
+
+@include breakpoint($medium) {
+    .geo-card__media {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+.page__content {
+    h1 {
+        border-bottom: 1px solid $theme-pink-border;
+    }
+
+    h2,
+    h3 {
+        scroll-margin-top: 6rem;
+    }
+
+    a {
+        color: $link-color;
+        text-decoration-color: mix(#fff, $theme-pink, 30%);
+
+        &:hover {
+            color: $theme-pink-deep;
+        }
+    }
+
+    p a,
+    li a {
+        background-image: linear-gradient(180deg, rgba(255,255,255,0) 62%, mix(#fff, $theme-pink-soft, 20%) 62%);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border-radius: .25em;
+        padding: 0 .08em;
+    }
 }

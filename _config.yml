@@ -7,9 +7,11 @@
 
 # Site Settings
 title                    : "Jiahe Li (李嘉禾)"
-description              : "Ph.D. student in Zhejiang University. My research interests include neural signal decoding, large-scale models for EEG signals, machine learning for healthcare, and human-centered AI."
-repository               : "https://erikaqvq.github.io/"
+description              : "Ph.D. student at Zhejiang University. My research interests include neural signal decoding, large-scale models for EEG signals, machine learning for healthcare, and human-centered AI."
+repository               : "Erikaqvq/Erikaqvq.github.io"
 google_scholar_stats_use_cdn : true
+baidu_maps_ak            : "vUUOY8PncjVIaUbrVoHTIf5YHlfJsfpm"
+baidu_panorama_id        : "09025200001504230636318876B"
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/

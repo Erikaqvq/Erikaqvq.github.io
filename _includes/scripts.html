@@ -1,4 +1,52 @@
 <script src="assets/js/main.min.js"></script>
+{% if site.baidu_maps_ak %}
+<script>
+  (function() {
+    var panoramaEl = document.getElementById("geo-panorama");
+    var mapEl = document.getElementById("geo-map");
+    if (!panoramaEl || !mapEl) return;
+
+    var host = window.location.hostname;
+    var isLiveSite = /(^|\\.)erikaqvq\\.github\\.io$/.test(host);
+    if (!isLiveSite) {
+      panoramaEl.innerHTML = '<div class="geo-panel__fallback">Baidu panorama is enabled on the live site at erikaqvq.github.io.</div>';
+      mapEl.innerHTML = '<div class="geo-panel__fallback">The zoomable Baidu map is enabled on the live site at erikaqvq.github.io.</div>';
+      return;
+    }
+
+    if (typeof BMap === "undefined") {
+      panoramaEl.innerHTML = '<div class="geo-panel__fallback">Baidu Maps failed to load.</div>';
+      mapEl.innerHTML = '<div class="geo-panel__fallback">Baidu Maps failed to load.</div>';
+      return;
+    }
+
+    var point = new BMap.Point(120.11703, 30.26115);
+
+    try {
+      var panorama = new BMap.Panorama("geo-panorama");
+      panorama.setId("{{ site.baidu_panorama_id }}");
+      panorama.setPov({ heading: 152.1, pitch: -0.98 });
+      panorama.setOptions({
+        albumsControl: false,
+        navigationControl: true
+      });
+    } catch (error) {
+      panoramaEl.innerHTML = '<div class="geo-panel__fallback">The panorama is temporarily unavailable.</div>';
+    }
+
+    try {
+      var map = new BMap.Map("geo-map");
+      map.centerAndZoom(point, 19);
+      map.enableScrollWheelZoom(true);
+      map.addControl(new BMap.NavigationControl());
+      map.addControl(new BMap.ScaleControl());
+      map.addOverlay(new BMap.Marker(point));
+    } catch (error) {
+      mapEl.innerHTML = '<div class="geo-panel__fallback">The map is temporarily unavailable.</div>';
+    }
+  })();
+</script>
+{% endif %}
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}

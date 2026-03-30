@@ -56,19 +56,36 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
+$pink-50                    : #fff5f8;
+$pink-100                   : #fde7ef;
+$pink-200                   : #f9d2df;
+$pink-300                   : #f2b1c8;
+$pink-400                   : #ea8caf;
+$pink-500                   : #de6f98;
+$pink-600                   : #c75482;
+$pink-700                   : #a63d68;
+
 $body-color                 : #fff;
 $background-color           : #fff;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$border-color               : mix(#fff, $pink-400, 82%);
 
-$primary-color              : #7a8288;
+$primary-color              : $pink-500;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
-$info-color                 : #224b8d;
+$info-color                 : $pink-600;
 // $info-color                 : #52adc8;
+
+$theme-pink                 : $pink-500;
+$theme-pink-deep            : $pink-700;
+$theme-pink-soft            : $pink-100;
+$theme-pink-hover           : $pink-600;
+$theme-pink-border          : mix(#fff, $pink-500, 72%);
+$theme-pink-glow            : rgba(222, 111, 152, 0.18);
+$theme-pink-shadow          : rgba(166, 61, 104, 0.12);
 
 /* brands */
 $behance-color              : #1769FF;
@@ -95,10 +112,10 @@ $xing-color                 : #006567;
 
 /* links */
 $link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
+$link-color-hover           : $theme-pink-deep;
 $link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$masthead-link-color        : mix(#000, $theme-pink-deep, 20%);
+$masthead-link-color-hover  : $theme-pink-hover;
 
 
 /*

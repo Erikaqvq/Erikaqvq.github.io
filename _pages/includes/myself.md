@@ -14,10 +14,8 @@ I also enjoy playing Tuxun, a geography-guessing game similar to GeoGuessr. My [
   <p><strong>Field scene:</strong> Cao Guangbiao High-Tech Building, Yuquan Campus, Zhejiang University</p>
   <div class="geo-card__media">
     <div class="geo-panel">
-      <div class="geo-panel__title">360 Panorama</div>
-      <div id="geo-panorama" class="geo-panel__viewport geo-panel__viewport--embed">
-        <div class="geo-panel__fallback">Baidu panorama will appear here on the live site.</div>
-      </div>
+      <div class="geo-panel__title">Campus View</div>
+      <img class="geo-panel__image" src="/images/cao-guangbiao-panorama.jpg" alt="Cao Guangbiao High-Tech Building at Zhejiang University" draggable="false">
     </div>
     <div class="geo-panel">
       <div class="geo-panel__title">Map Coordinates</div>
